@@ -7,7 +7,7 @@ app.use(cors());
 const PORT = process.env.PORT || 8080;
 
 app.get('/', (request, response) => {
-    return response.json({ response: 'API OpenAI 1.0.0' });
+    return response.json({ response: 'API OpenAI 1.0.1' });
 });
 
 app.get('/search', async (request, response) => {
